@@ -1,0 +1,17 @@
+# include <iostream>
+# include <string>
+using namespace std;
+int main()
+
+{
+char fname[30], lname [30];
+ cout <<"\n\n Print the First and Last name respectively : \n";
+ cout << "-----------------------------------------------------------\n";
+cout << " Input Last Name: ";
+cin >> fname;
+cout << " Input First Name: ";
+cin >> lname;
+cout << " My first name and Last name Respectively: "<< fname << " "<<lname  <<endl;
+	cout << endl;
+return 0;
+}

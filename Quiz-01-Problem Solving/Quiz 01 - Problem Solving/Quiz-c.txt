@@ -1,0 +1,17 @@
+Question c)
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+   char ch = 'Z';
+   int i;
+   for(i=13;i>=1;i--,ch--)
+       cout<<"( "<<ch<<" )"<<endl;  
+
+
+   return 0;
+}
+

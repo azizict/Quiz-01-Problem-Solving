@@ -1,0 +1,17 @@
+Question d)
+
+#include <iostream>
+
+using namespace std;
+
+int main(){
+cout <<"\n \n";
+   int i,j;
+   for(i=1;i<=4;i++){
+       for(j=4;j>=i;j--)
+           cout<<j<<" ";
+       cout<<"\n";
+   }
+
+   return 0;
+}
